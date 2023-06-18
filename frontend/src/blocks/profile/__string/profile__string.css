@@ -1,0 +1,12 @@
+.profile__string {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 18px;
+}
+
+@media screen and (max-width: 440px) {
+  .profile__string {
+    gap: 13px;
+  }
+}

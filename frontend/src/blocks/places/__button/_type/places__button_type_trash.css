@@ -1,0 +1,11 @@
+.places__button_type_trash {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 0;
+  border: none;
+  background: url(../../../../images/trash.svg) rgba(0, 0, 0, 0);
+  cursor: pointer;
+  width: 18px;
+  height: 19.3px;
+}

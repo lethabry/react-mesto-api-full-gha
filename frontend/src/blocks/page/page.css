@@ -1,0 +1,16 @@
+.page {
+  background-color: #000000;
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  min-width: 320px;
+  margin: 0 auto;
+  text-rendering: optimizeLegibility;
+  color: #fff;
+  padding-bottom: 60px;
+}
+
+
+@media screen and (max-width: 539px) {
+  .page {
+    padding-bottom: 32px;
+  }
+}

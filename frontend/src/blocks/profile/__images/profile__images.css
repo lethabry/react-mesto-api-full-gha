@@ -1,0 +1,12 @@
+.profile__images {
+  position: relative;
+}
+
+.profile__images:hover .profile__button_type_avatar {
+  opacity: 1;
+}
+
+.profile__images:hover .profile__avatar {
+  opacity: 0.2;
+  transition: opacity 0.5s linear;
+}

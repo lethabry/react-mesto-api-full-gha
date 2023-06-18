@@ -1,0 +1,7 @@
+.places__button_type_like {
+  width: 22px;
+  height: 19px;
+  border: none;
+  background: url(../../../../images/like.svg) rgb(255, 255, 255) no-repeat;
+  cursor: pointer;
+}

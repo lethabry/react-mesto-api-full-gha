@@ -1,0 +1,26 @@
+.auth__error {
+  display: block;
+  min-height: 22px;
+  width: 100%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 11px;
+  color: #FF0000;
+}
+
+.auth__error:last-of-type {
+  margin-bottom: 195px;
+}
+
+@media screen and (max-width:418px) {
+  .auth__error {
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width:418px) {
+  .auth__error:last-of-type {
+    margin-bottom: 151px;
+  }
+}

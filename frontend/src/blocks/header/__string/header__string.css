@@ -1,0 +1,9 @@
+.header__string {
+  display: flex;
+}
+
+@media screen and (max-width: 918px) {
+  .header__string {
+    margin-right: 27px;
+  }
+}

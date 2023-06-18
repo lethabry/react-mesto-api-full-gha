@@ -1,0 +1,12 @@
+.places__counter {
+  display: none;
+  margin: 0;
+  margin-top: 3px;
+  height: 13px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  color: #000;
+}

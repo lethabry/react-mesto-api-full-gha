@@ -1,0 +1,16 @@
+.profile__button_type_edit {
+  background: url(../../../../images/Edit_Button.png) #000;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 576px) {
+  .profile__button_type_edit {
+    width: 18px;
+    height: 18px;
+  }
+}

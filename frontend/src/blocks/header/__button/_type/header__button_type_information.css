@@ -1,0 +1,18 @@
+.header__button_type_information {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  width: 24px;
+  height: 18px;
+  display: none;
+  margin-right: 24px;
+  padding: 0;
+}
+
+@media screen and (max-width: 436px) {
+  .header__button_type_information {
+    display: block;
+  }
+}
