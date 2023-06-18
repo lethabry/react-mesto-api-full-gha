@@ -14,7 +14,7 @@ const NotFoundError = require('./utils/errors/NotFoundError');
 const { signInValidation, signUpValidation } = require('./middlewares/validation');
 const checkAccessCors = require('./middlewares/cors');
 
-const { PORT = 3001 } = process.env;
+const { PORT = 3000 } = process.env;
 const app = express();
 
 const limiter = rateLimit({
