@@ -97,7 +97,8 @@ export class Api {
 }
 
 const api = new Api({
-  baseUrl: 'http://localhost:3001',
+  baseUrl: 'http://api.lethabry.nomoredomains.rocks:3000',
+  // baseUrl: 'http://localhost:3001',
   headers: {
     'Content-Type': 'application/json'
   }

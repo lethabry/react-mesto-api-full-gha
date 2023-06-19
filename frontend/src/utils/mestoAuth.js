@@ -1,4 +1,5 @@
-export const BASE_URL = 'http://localhost:3001';
+export const BASE_URL = 'http://api.lethabry.nomoredomains.rocks:3000';
+// export const BASE_URL = 'http://localhost:3001';
 
 function checkRes(res) {
   if (res.ok) {
