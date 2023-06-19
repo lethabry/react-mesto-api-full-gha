@@ -2,6 +2,9 @@ const allowedCors = [
   'localhost:3000',
   'http://localhost:3000',
   'https://localhost:3000',
+  'https://lethabry.nomoredomains.rocks',
+  'http://lethabry.nomoredomains.rocks',
+  'lethabry.nomoredomains.rocks',
 ];
 
 function checkAccessCors(req, res, next) {
