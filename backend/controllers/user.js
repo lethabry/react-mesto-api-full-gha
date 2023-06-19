@@ -97,7 +97,7 @@ function login(req, res, next) {
   return User.findUserByCredentals(email, password)
     .then((user) => {
       const token = jwt.sign({ _id: user._id }, process.env.NODE_ENV !== 'production' ? 'secret_key' : process.env.JWT_SECRET, { expiresIn: '7d' });
-      res.cookie('jwt', token, { maxAge: 3600000 * 24 * 7, httpOnly: true });
+      res.cookie('jwt', token, { maxAge: 3600000 * 24 * 7, httpOnly: true, sameSite: 'none' });
       res.send({ _id: user._id });
     })
     .catch(next);
