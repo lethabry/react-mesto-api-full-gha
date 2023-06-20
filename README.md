@@ -5,12 +5,12 @@
   
 Пожалуйста, прикрепите в это описание ссылку на сайт, размещенный на Яндекс.Облаке.
 
-Адрес репозитория: https://github.com/...
-
+Адрес репозитория: https://github.com/lethabry/react-mesto-api-full-gha
+cd 
 ## Ссылки на проект
 
-IP-адрес x.x.x.x
+IP-адрес 158.160.50.89
 
-Frontend https://...
+Frontend https://lethabry.nomoredomains.rocks/react-mesto-auth
 
-Backend https://...
+Backend https://api.lethabry.nomoredomains.rocks
