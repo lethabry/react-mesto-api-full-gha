@@ -9,8 +9,8 @@
 cd 
 ## Ссылки на проект
 
-IP-адрес 158.160.50.89
+IP 158.160.50.89
 
-Frontend https://lethabry.nomoredomains.rocks/react-mesto-auth
+Frontend https://lethabry.nomoredomains.rocks
 
 Backend https://api.lethabry.nomoredomains.rocks
